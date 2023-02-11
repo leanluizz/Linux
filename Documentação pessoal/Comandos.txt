@@ -1,0 +1,2 @@
+#SSH/root : Acesso de administrador do sistema Operacional
+- exemplo? sudo apt-get-install (instalar pacotes.aplicacções, serviços entre outros como adm)

@@ -1,3 +1,7 @@
+- INSTALE O ACESSO AO SSH PRIMEIRO
+sudo apt-get install openssh-server
+sudo apt-get install openssh-client
+
 ssh name@ip
 
 - Exemplo: ssh pac_20@192.168.2.10
