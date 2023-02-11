@@ -1,4 +1,4 @@
-#Nesta anotação esta um relato onde estarei passando um pouco do meu conhecimento e experiência com o Bootcamp Linux da DIO
+# Nesta anotação esta um relato onde estarei passando um pouco do meu conhecimento e experiência com o Bootcamp Linux da DIO
 
 ## Techs usadas:
 * Oracle VM VirtualBox
