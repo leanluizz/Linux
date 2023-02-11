@@ -1,0 +1,3 @@
+ssh name@ip
+
+- Exemplo: ssh pac_20@192.168.2.10
