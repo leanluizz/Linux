@@ -1,6 +1,6 @@
 #Nesta anotação esta um relato onde estarei passando um pouco do meu conhecimento e experiência com o Bootcamp Linux da DIO
 
-##Techs usadas:
+## Techs usadas:
 * Oracle VM VirtualBox
 * EC2 (AWS)
 * Putty (Acesso Remoto)
