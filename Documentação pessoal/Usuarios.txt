@@ -1,0 +1,10 @@
+useradd "nome do usuario"
+userremove "nome do usuario"
+passwd - FAZ A SENHA PRO USUARIO
+
+-- GROUP---
+cat /etc/group - PARA VER OS GRUPOS DE PERMISSÃO E DE USUARIOS
+
+- Pode ser de administralção ou de permissões pra gerencia usuarios:
+
+usermod -G GRP_ADM "nome do usuario" - TROCA O GRUPO DELE

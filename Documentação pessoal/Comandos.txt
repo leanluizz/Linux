@@ -1,2 +1,19 @@
 #SSH/root : Acesso de administrador do sistema Operacional
 - exemplo? sudo apt-get-install (instalar pacotes.aplicacções, serviços entre outros como adm)
+
+sudo - COMANDO DE PERMISSÃO DE ADMINISTRADOR 
+sudo passwd root -CRIA USUÁRIO ROOT | su root - ENTRA NO MODO ROOT
+
+nano etc/ssh/sshd/sshd_config - CONTROLA PERMISSÕES DO SISTEMA DE ADM
+	exemplo: LIBERAR ACESSOS ADM DE ROOT PARA MÁQUINAS REMOTAS
+
+
+pwd - INDICA O DIRETORIO QUE VOCÊ ESTÁ
+cat - EXIBE TEXTO DO ARQUIVO
+ls - LISTA ARQUIVOS
+ls "nome do arquivo" - EXPECIFICA QUAL ARQUIVO VOCÊ QUER
+ls "nome do arquivo"* - MOSTRA TODOS OS ARQUIVOS DE ACORDO COM A LETRA(as) FILTRADAS
+	exemplo: ls p*
+ls [2, 5] - LISTA ARQUIVOS DE ACORDO COM O COMANDO LÓGICO 
+touch "nome do arquivo" - CRIA ARQUIVOS NO DIRETORIO ATUAL
+find -name s* - PROCURA EM QUAL DIRETORIO O ARQUIVO ESTÁ

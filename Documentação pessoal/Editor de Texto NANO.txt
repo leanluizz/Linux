@@ -1,0 +1,3 @@
+Criar arquivos de texto
+
+nano "nome do arquivo".txt (js, html, css)

@@ -1,0 +1,12 @@
+Criar arquivos de texto
+
+vi "nome do arquivo".txt (js, html, css)
+
+SE JA EXISTIR ALGUM ARQUIVO COM MESMO NOMESE ELE SO ENTRA NO ARQUIVO 
+SE NÃO ELE CRIA ARQUIVO COM O NOME DIGITADO
+
+Comandos do VI:
+ Tecla I = INSERT (ou seja o arquivo torna editavel)
+ Tecla ESC = SAIR (ou seja ele sai do modo que estiver)
+ Tecla SHIFT + : = SALVAR (ou seja ele salva)
+	exemplo: se digitar wq depois de apertar SHIFT + : para salvar ele SAI E SALVA O ARQUIVO

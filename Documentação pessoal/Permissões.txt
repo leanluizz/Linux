@@ -1,0 +1,11 @@
+drwxr-xr-x  - GRUPOS DE PERMISSÕES OU SEJA DE X USUARIO TEM PERMISSÃO PRA EDITA, LER OU CRIAR ARQUIVOS.
+
+SOME AS PERMISSÕES PARA QUE PERMITIR USUARIOS
+Tem que estar no usuario atual
+
+- chmod 750 /adm/
+
+Leitura (r) - 4
+Gravação(w) - 2
+Execução(x) - 1
+Nenhuma - 0
