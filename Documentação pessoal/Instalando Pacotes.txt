@@ -1,0 +1,43 @@
+---------------------------------------------------------Ubuntu----------------------------------------------------------
+apt --help COMANDO DO INSTALADOR DE PACOTES
+
+apt install "nome do pacote"
+SERVE PRA INSTALAR PACOTES(apps, zip, arquivos da web)
+
+apt remove "nome do pacote"
+SERVE PRA DESINSTALAR PACOTES(apps, zip, arquivos da web)
+
+apt search "nome do pacote"
+SERVE PRA PESQUISAR OU FILTRAR SE EXISTE O PACOTE(apps, zip, arquivos da web)
+
+apt upgrade "nome do pacote"
+ATUALIZA UM PACOTE(apps, zip, arquivos da web)
+
+---------------------------------------------------------Red Hat----------------------------------------------------------
+dnf --help COMANDO DO INSTALADOR DE PACOTES
+
+dnf install "nome do pacote"
+SERVE PRA INSTALAR PACOTES(apps, zip, arquivos da web)
+
+dnf remove "nome do pacote"
+SERVE PRA DESINSTALAR PACOTES(apps, zip, arquivos da web)
+
+dnf search "nome do pacote"
+SERVE PRA PESQUISAR OU FILTRAR SE EXISTE O PACOTE(apps, zip, arquivos da web)
+
+dnf upgrade "nome do pacote"
+ATUALIZA UM PACOTE(apps, zip, arquivos da web)
+---------------------------------------------------------Fedora-----------------------------------------------------------
+yum --help COMANDO DO INSTALADOR DE PACOTES
+
+yum install "nome do pacote"
+SERVE PRA INSTALAR PACOTES(apps, zip, arquivos da web)
+
+yum remove "nome do pacote"
+SERVE PRA DESINSTALAR PACOTES(apps, zip, arquivos da web)
+
+yum search "nome do pacote"
+SERVE PRA PESQUISAR OU FILTRAR SE EXISTE O PACOTE(apps, zip, arquivos da web)
+
+yum upgrade "nome do pacote"
+ATUALIZA UM PACOTE(apps, zip, arquivos da web)

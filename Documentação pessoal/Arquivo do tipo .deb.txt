@@ -1,0 +1,3 @@
+COMO INSTALAR SOFTWARES EXECUTAVÉIS (DESKTOP) NA LINHA DE COMANDO
+
+apt install "nome do arquivo".deb
