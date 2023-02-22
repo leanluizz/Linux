@@ -3,9 +3,12 @@ drwxr-xr-x  - GRUPOS DE PERMISSÕES OU SEJA DE X USUARIO TEM PERMISSÃO PRA EDIT
 SOME AS PERMISSÕES PARA QUE PERMITIR USUARIOS
 Tem que estar no usuario atual
 
-- chmod 750 /adm/
+chmod número - PERMISSÕES DE:
 
 Leitura (r) - 4
 Gravação(w) - 2
 Execução(x) - 1
-Nenhuma - 0
+Nenhuma - 
+
+chown - COMANDO CHOWN PERMITE QUE VOCÊ ESCOLHA QUAIS USUARIOS TEM PERMISSÃO COM X DIRETORIOS
+chown root:"nome do grupo" "diretorios"
