@@ -1,0 +1,13 @@
+mv --help - AJUDA
+
+mv - MOVE ARQUIVOS OU DIRETORIOS
+
+mv /diretorio atual/ /diretorio de destino/ - MOVE O DIRETORIO
+
+mv /home/a* - MOVE TODOS OS ARQUIVOS QUE COMEÇAM COM A LETRA MENCIONADA
+
+mv /caminho do diretorio/ /caminho do destino/ -i - PERGUNTA SE QUER MESMO FAZER A AÇÃO
+
+mv /caminho do diretorio/ /caminho do destino/ -r - MOVE TUDO
+
+mv /caminho do diretorio/ /caminho do destino/ -v - VISUALIZAR O QUE ESTÁ MOVENDO

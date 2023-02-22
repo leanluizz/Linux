@@ -1,0 +1,3 @@
+mv --help - AJUDA
+
+mv nome do arquivo/diretorio nome novo

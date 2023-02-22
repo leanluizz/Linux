@@ -1,0 +1,14 @@
+ps --h - AJUDA
+
+ps - MOSTRA PROCESSOS ATIVOS
+ps aux - MOSTRA TODOS OS PROCESSOS DE EXECUÇÃO
+
+w - ATIVIDADES DE USUARIOS
+who -a - MOSTRA USUARIOS LOGADOS
+
+---------------------------------------------------------MATANDO PROCESSOS---------------------------------------------
+
+kill número do PID - MATA O PROCESSO ATIVO DE ACORDO COM O PID
+killall "nome especificado" - MATA TODOS OS PROCESSOS COM NOME ESPECIFICADO
+- O que é um PID? 
+	Process Identification - APENAS O NÚMERO DE IDENTIFICAÇÃO DO PROCESSO

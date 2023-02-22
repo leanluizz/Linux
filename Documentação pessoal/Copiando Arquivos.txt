@@ -1,0 +1,22 @@
+cp --h - AJUDA
+
+cp /caminho do diretorio atual/arquivo /caminho do diretorio de destino/ - COPIA DO DIRETORIO ATUAL PRO DIRETORIO DE DESTINO
+
+cp /caminho do diretorio atual/*.tipo do arquivo /caminho do diretorio de destino/ - COPIA TODOS OS ARQUIVOS QUE TEM O TIPO DE ARQUIVO:
+	exemplo: cp /home/*.txt /home/copias 
+	resultado: {
+usuario@SERVER:/home#: ls
+arquivo1.txt arquivo2.txt arquivo1.txt arquivo3.txt
+usuario@SERVER:/home/copias#: ls
+arquivo1.txt arquivo2.txt arquivo1.txt arquivo3.txt
+}
+
+FILTROS DE EXEMPLO:
+
+cp /home/a* - COPIA TODOS OS ARQUIVOS QUE COMEÇAM COM A LETRA MENCIONADA
+
+cp /caminho do diretorio/ /caminho do destino/ -i - PERGUNTA SE QUER MESMO FAZER A AÇÃO
+
+cp /caminho do diretorio/ /caminho do destino/ -r - COPIA TUDO
+
+cp /caminho do diretorio/ /caminho do destino/ -v - VISUALIZAR O QUE ESTÁ COPIANDO

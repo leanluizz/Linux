@@ -1,0 +1,20 @@
+lsblk - LISTANDO AS PARTIÇÕES DE DISCO
+fdisk -l - LISTANDO DADOS DAS PARTIÇÕES DO DISCO
+
+fdsik /caminho do disco/ - GERENCIAR O  DISCO (HD)
+  {
+	n - COMANDO PRA CRIAR UMA NOVA PARTIÇÃO DO DISCO 
+   Partition Type:
+	p (primary, 1-4) PARA CRIAR PARTIÇÃO PRIMARIA (Padrão) 
+	e (extend, 1-4) PARA CRIAR PARTIÇÃO EXTENDIDA (Padrão) 
+   Save
+	w - SALVA AS ALTERAÇÕES
+
+   Formata a partição do disco e cria um sistema de arquivos NFTS ou EXT
+	mkfs.ext /caminho da partição/
+	mkfs.nfts /caminho da partição/
+
+   Pra finalizar tem que montar o disco!:
+	mount /caminho do disco/ - MONTA O DISCO NO DIRETORIO ATUAL
+	unmount /caminho do disco/ - MONTA O DISCO NO DIRETORIO ATUAL
+}

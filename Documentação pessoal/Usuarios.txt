@@ -1,5 +1,13 @@
-useradd "nome do usuario"
-userremove "nome do usuario"
+
+PADRÃO PARA SE CRIAR USUARIOS:
+useradd nome do usuario -m -c "nome da pasta dele" -s /bin/bash -m -p $(openssl passwd -crypt "Senha") - PADRÃO
+
+useradd "nome do usuario" - CRIA UM USUARIO 
+useradd "nome do usuario" -p $(openssl passwd -crypt "Senha") - CRIA UM USUARIO COM SENHA
+useradd "nome do usuario" -m - CRIA COM A PASTA HOME
+useradd nome do usuario -m -c "nome do usuario" -s /bin/bash - CRIA COM HOME E BASH DE COMANDOS
+userdel "nome do usuario" - DELETA USUARIO
+
 passwd - FAZ A SENHA PRO USUARIO
 
 -- GROUP---
