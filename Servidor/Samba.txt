@@ -1,0 +1,20 @@
+SMB = PROTOCOLO DE ENVIO DE ARQUIVOS PRO SERVIDOR
+
+SAMBA = PACOTE DE APLICAÇÃO DE ENVIO DE ARQUIVOS PRA SERVIDOR
+
+	CONFIGURAÇÃO DO SAMBA
+apt install samba -y
+
+1 - Divide o disco em partições e entre em uma delas
+2 - Crie a pasta Server-Archive
+3 - Dentro da pasta crie a pasta Publica
+
+Digite nano /etc/samba/smb.config
+	Configurar no final do arquivo de config /etc/samba/smb.config
+	{
+	[publica]
+path = /disk2/publica
+writable = yes
+guest ok = yes
+guest only = yes
+}
